@@ -286,12 +286,14 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.editorial-tag::before {
+.editorial-tag::before,
+.editorial-tag::after {
   content: '';
   display: inline-block;
   width: 45px;
   height: 2px;
   background: var(--cream-gold);
+  flex-shrink: 0;
 }
 
 .hero h1 {
